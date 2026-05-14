@@ -1,0 +1,9 @@
+int mySqrt(int x) {
+    long int r,i;
+    for(i=1;i*i<=x;i++){
+        r=i;
+    }
+    if(x==0)
+        return 0;
+    return r;
+}
